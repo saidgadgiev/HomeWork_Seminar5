@@ -42,13 +42,13 @@ int[] InitArray(int num)
 
 void PrintArry(int[] array)
 {
-    Console.WriteLine();
+    // Console.WriteLine();
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i]%2 == 0) count = count + 1;
     }
-    Console.WriteLine(count);
+    Console.WriteLine($" -> {count}");
 }
 
 int num = CorrectNumber("Enter a number -> ");
