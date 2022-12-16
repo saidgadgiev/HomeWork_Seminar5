@@ -29,7 +29,7 @@ int[] InitArray(int num)
     Console.Write("[");
     for (int i = 0; i < num; i++)
     {
-        number[i] = rnd.Next(-10, 10);
+        number[i] = rnd.Next(-100, 100);
         Console.Write(number[i] + (i < number.Length-1 ?", ":""));
     }
     Console.Write("]");
